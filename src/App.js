@@ -1,8 +1,10 @@
+import Theme from './provider/Theme';
+
 function App() {
   return (
-    <div>
+    <Theme>
       <h1>Hola Mundo</h1>
-    </div>
+    </Theme>
   );
 }
 

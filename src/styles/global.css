@@ -11,6 +11,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 html,body{
 	width: 100%;
 	height: 100%;
+	color: #ffffff;
 }
 body{
   font-family: 'Poppins', sans-serif;
@@ -22,6 +23,10 @@ h1,h2,h3,h4,h5,h6{
 .fullImg{
   display: block;
   width: 100%;
+}
+
+.icons-orange {
+	color: #f5a52c;
 }
 
 
@@ -60,3 +65,8 @@ h1,h2,h3,h4,h5,h6{
 		background: yellow!important;
 	} */
 }
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }

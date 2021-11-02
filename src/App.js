@@ -1,9 +1,10 @@
 import Theme from './provider/Theme';
+import Home from './pages/Home';
 
 function App() {
   return (
     <Theme>
-      <h1>Hola Mundo</h1>
+      <Home />
     </Theme>
   );
 }

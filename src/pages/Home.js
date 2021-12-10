@@ -1,9 +1,10 @@
 import withLayout from '../layout/withLayout';
+import Header from '../components/Header';
 
 const Home = () => {
   return (
     <div>
-      <h1>Este es el home</h1>
+      <Header />
     </div>
   );
 };

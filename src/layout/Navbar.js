@@ -35,7 +35,7 @@ const Navbar = () => {
 };
 
 const Wrapped = styled.div`
-  padding: 25px 5%;
+  padding: 15px 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;

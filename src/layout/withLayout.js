@@ -1,4 +1,5 @@
 import Navbar from './Navbar';
+import Container from '../utils/Container';
 
 function withLayout(Wrapped) {
   // eslint-disable-next-line func-names
@@ -6,7 +7,9 @@ function withLayout(Wrapped) {
     return (
       <div>
         <Navbar />
-        <Wrapped />
+        <Container>
+          <Wrapped />
+        </Container>
       </div>
     );
   };

@@ -29,6 +29,10 @@ h1,h2,h3,h4,h5,h6{
 	color: #f5a52c;
 }
 
+.icons-brown {
+	color: #352b21;
+}
+
 
 @media screen and (max-width: 1200px) {
 	header {
